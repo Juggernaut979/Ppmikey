@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width, initial-scale = 1" />
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-solid-rounded/css/uicons-solid-rounded.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.1.0/uicons-brands/css/uicons-brands.css"
+    />
+  </head>
+
+  <body>
+    <nav class="topNav">
+      <div>
+        <i class="fi fi-sr-display-code"></i>
+      </div>
+
+      <div id="menuCloseBtn" class="menuIcon menuClose">
+        <span class="material-symbols-outlined"> close </span>
+      </div>
+
+      <div id="menuBtn" class="menuIcon">
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+
+      <ul id="navUl" class="navUl">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <article id="about" class="about gradBg">
+        <section class="artPad">
+          <div>
+            <img src="image/imageDev.jpg" alt="computer" />
+          </div>
+        </section>
+
+        <section class="artPad">
+          <h1>About Me</h1>
+
+          <h3>I am Mike and I am a Front-end Developer</h3>
+          <p>I am a Front-end Developer with years of experience in Web Dev.</p>
+          <p>
+            I have worked on a variety of projects for clients in healthcare,
+            industries, design and travel. I am passionate about creating great
+            user experiences and have strong understanding of usability and
+            accessibilty standard.
+          </p>
+
+          <button>Download CV</button>
+        </section>
+      </article>
+
+      <article id="service" class="myServ artPad solidBg">
+        <h1>My Services</h1>
+        <h4>What I Provide</h4>
+
+        <section>
+          <div class="boxStyle">
+            <p><span class="material-symbols-outlined"> tablet_mac </span></p>
+            <h3>Responsive Web Design</h3>
+            <p>
+              Enterprise-class websites need consistent colours, fonts, amd
+              design to match. I am an expert in designing responsive websites,
+              with CSS at the core front end development along side Javascript
+              and HTML.
+            </p>
+          </div>
+
+          <div class="boxStyle">
+            <p><span class="material-symbols-outlined"> computer </span></p>
+            <h3>Custom Web Development</h3>
+            <p>
+              I use clean codes and a customized approach to infuse creativity
+              and interactivity into your web app.
+            </p>
+          </div>
+
+          <div class="boxStyle">
+            <p><span class="material-symbols-outlined"> database </span></p>
+            <h3>Data Migration, support, and Maintenance.</h3>
+            <p>
+              Enterprise-class websites need consistent colours, fonts, amd
+              design to match. I am an expert in designing responsive websites,
+              with CSS at the core front end development along side Javascript
+              and HTML.
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <article id="skills" class="skills gradBg artPad">
+        <h1>My Skills</h1>
+
+        <section>
+          <div>
+            <p>HTML</p>
+            <p>100%</p>
+          </div>
+          <div>
+            <p>CSS</p>
+            <p>90%</p>
+          </div>
+          <div>
+            <p>Bootstrap</p>
+            <p>80%</p>
+          </div>
+          <div>
+            <p>Javascript</p>
+            <p>75%</p>
+          </div>
+          <div>
+            <p>React</p>
+            <p>60%</p>
+          </div>
+        </section>
+      </article>
+
+      <article id="project" class="project solidBg artPad">
+        <h1>My Projects</h1>
+
+        <section>
+          <div class="boxStyle">
+            <p>
+              <span class="material-symbols-outlined"> rss_feed </span>
+            </p>
+            <h3>Blog</h3>
+
+            <p>
+              Createed a unique and beautiful blog for a content creator to post
+              personal views, knowlegdge, experience.
+            </p>
+          </div>
+
+          <div class="boxStyle">
+            <p>
+              <span class="material-symbols-outlined"> business_center </span>
+            </p>
+            <h3>Portfolio</h3>
+
+            <p>
+              Designed a high quality unique Portfolio page for an architect to
+              showcase her designs and post her learning progress and views.
+            </p>
+          </div>
+
+          <div class="boxStyle">
+            <p>
+              <span class="material-symbols-outlined"> house </span>
+            </p>
+            <h3>Landing Page</h3>
+
+            <p>
+              Created a landing page for a shoe store where they showcase their
+              kicks and post tips on how to maintain kicks.
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <article id="contact" class="contact gradBg artPad">
+        <h2>Contact Me</h2>
+        <h4>Hey, interseted in reaching me?</h4>
+
+        <section>
+          <div>
+            <p>Contact Me</p>
+            <p>Email: ptjmike@gmail.com</p>
+            <p>+229 083 847 73</p>
+          </div>
+
+          <div>
+            <p>
+              <input type="text" name="name" id="name" placeholder="Name" />
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </p>
+
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+
+            <p>
+              <button>
+                Send <i class="material-symbols-outlined"> chat </i>
+              </button>
+            </p>
+          </div>
+        </section>
+      </article>
+
+      <footer class="solidBg">
+        <section>
+          <div>
+            <a href="#"><i class="fi fi-brands-github"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fi fi-brands-twitter"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fi fi-brands-whatsapp"></i></a>
+          </div>
+          <div>
+            <a href="#"><i class="fi fi-brands-discord"></i></a>
+          </div>
+        </section>
+        <section>&copy; Jugger Web Service. 2024</section>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
